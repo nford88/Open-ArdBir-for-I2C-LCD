@@ -12,12 +12,12 @@ By default, this build has set I2C address to 0x3F.
 I have disabled some of the debugging features in Open ArdBir as the library for I2C is slightly bigger than the default LCD library to enable it to be compiled on a Arduino Uno R3.
 
 
-To install
+###To install
 ===========
 
 Download and open Open-ArdBir.ino in your Arduinio IDE and upload. Simple!
 
-To change address
+###To change address
 =================
 
 If your address is different to the default 0x3F, simply search through the whole sketches and replace 0x3F with your I2C address.
